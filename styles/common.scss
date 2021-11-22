@@ -1,0 +1,33 @@
+.action__button {
+  width: 160px;
+  height: 48px;
+  background-color: $color-button-blue;
+  color: $background-color-white;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 2px;
+  border: none;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .headline__action-btn {
+    width: 100%;
+  }
+}
+
+.hide_desktop {
+  @include for-large-up {
+    display: none;
+  }
+}
+
+.hide_mobile {
+  @include for-large-down {
+    display: none;
+  }
+}

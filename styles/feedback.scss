@@ -1,0 +1,68 @@
+.feedback {
+  &__content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include for-large-down {
+      display: none;
+    }
+  }
+
+  &__subtitle {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0px 130px;
+    color: $text-color-blue;
+  }
+
+  &__description {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: $color-dark;
+    margin: 28px 325px 0px 325px;
+  }
+
+  &__user {
+    margin-top: 34px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  &__name {
+    font-weight: 700;
+  }
+
+  &__picture {
+    position: absolute;
+    right: 0px;
+    bottom: -5px;
+
+  }
+
+  &__img {
+    width: 273px;
+    height: 243px;
+  }
+
+  &__selected {
+    margin-top: 38px;
+    margin-bottom: 66px;
+  }
+
+  &__dot {
+    width: 8px;
+    height: 8px;
+    margin-right: 13px;
+  }
+
+  &__dot:last-child {
+    margin-right: 0px;
+  }
+}
