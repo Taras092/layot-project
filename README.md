@@ -1,6 +1,6 @@
 # **Layout Sample Project**
 
-[Site link]().
+[Site link](https://taras092.github.io/layot-project/).
 
 ###### Layout supports mobile (up-to-400) and desktop (up-to-1400) versions
 
