@@ -115,6 +115,7 @@
     align-items: center;
     background: $background-color-white;
     margin-bottom: 15px;
+    flex-direction: column;
 
     @include for-large-up {
       width: 290px;
@@ -124,7 +125,16 @@
       &:hover {
         cursor: pointer;
         background: $background-color-blue;
+        color: $background-color-white;
       }
+    }
+
+    &_description {
+        margin-top: 22px;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 28px;
+
     }
   }
 
@@ -138,9 +148,11 @@
 
   &__pictures_entertaiment {
     background: $background-color-blue;
+    color: $background-color-white;
 
     @include for-large-up {
       background: $background-color-white;
+      color: $color-dark;
 
       &:hover {
         cursor: pointer;

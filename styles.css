@@ -685,6 +685,7 @@
   .order {
     padding: 73px 0px 72px 0px;
     align-items: flex-start;
+    flex-direction: row;
   }
 }
 .order__details {
@@ -878,6 +879,7 @@
   align-items: center;
   background: #fff;
   margin-bottom: 15px;
+  flex-direction: column;
 }
 @media screen and (min-width: 1400px) {
   .audience__pictures {
@@ -888,7 +890,14 @@
   .audience__pictures:hover {
     cursor: pointer;
     background: #3141C5;
+    color: #fff;
   }
+}
+.audience__pictures_description {
+  margin-top: 22px;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 28px;
 }
 .audience__pictures:last-child {
   margin-bottom: 0px;
@@ -900,10 +909,12 @@
 }
 .audience__pictures_entertaiment {
   background: #3141C5;
+  color: #fff;
 }
 @media screen and (min-width: 1400px) {
   .audience__pictures_entertaiment {
     background: #fff;
+    color: #2B292D;
   }
   .audience__pictures_entertaiment:hover {
     cursor: pointer;

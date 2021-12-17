@@ -9,6 +9,7 @@
   @include for-large-up {
     padding: 73px 0px 72px 0px;
     align-items: flex-start;
+    flex-direction: row;
   }
 
   &__details {
